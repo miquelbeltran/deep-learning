@@ -60,7 +60,8 @@ class NeuralNetwork(object):
 
         # TODO: Output layer - Replace these values with your calculations.
         final_inputs = np.dot(hidden_outputs, self.weights_hidden_to_output)  # signals into final output layer
-        final_outputs = self.activation_function(final_inputs) # signals from final output layer
+        # Note: Do not use the activation function here, the output is the number of users, not a value between 0 and 1
+        final_outputs = final_inputs # signals from final output layer
         
         return final_outputs, hidden_outputs
 
@@ -85,7 +86,8 @@ class NeuralNetwork(object):
         hidden_error = np.dot(self.weights_hidden_to_output, error)
         
         # TODO: Backpropagated error terms - Replace these values with your calculations.
-        output_error_term = error * final_outputs * (1 - final_outputs)
+        # Note: Because we don't use the activation_function on the output, there's no calculation here
+        output_error_term = error
         
         hidden_error_term = hidden_error * hidden_outputs * (1 - hidden_outputs)
         
@@ -125,7 +127,8 @@ class NeuralNetwork(object):
         
         # TODO: Output layer - Replace these values with the appropriate calculations.
         final_inputs = np.dot(hidden_outputs, self.weights_hidden_to_output) # signals into final output layer
-        final_outputs = self.activation_function(final_inputs) # signals from final output layer 
+        # Note: Do not use the activation function here, the output is the number of users, not a value between 0 and 1
+        final_outputs = final_inputs # signals from final output layer 
         
         return final_outputs
 
@@ -133,7 +136,7 @@ class NeuralNetwork(object):
 #########################################################
 # Set your hyperparameters here
 ##########################################################
-iterations = 100
-learning_rate = 0.1
-hidden_nodes = 2
+iterations = 5000
+learning_rate = 0.5
+hidden_nodes = 20
 output_nodes = 1
