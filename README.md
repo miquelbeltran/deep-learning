@@ -6,7 +6,7 @@ Most of the data can also be found on the original Udacity repo: https://github.
 
 All the code, projects, sample data, etc. belong first to Udacity and secondly to this repo author (Miquel Beltran).
 
-The reproduction, total or partial, of the contents of this repo is forbiden except if specified otherwise.
+The reproduction, total or partial, of the contents of this repo is forbidden except if specified otherwise.
 
 **IF YOU COPY CODE FROM THIS REPO INTO YOUR UDACITY PROJECT SUBMISSIONS YOU WILL BE BREAKING THE CODE OF HONOR AND MAY FACE CONSECUENCES (LIKE BEING KICKED OUT OF THE COURSE)**
 
