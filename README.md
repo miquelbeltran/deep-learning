@@ -1,12 +1,16 @@
 # Deep Learning Nanodegree
 
-This repository contains all the projects I did during the [Deep Learning Nanodegree at Udacity](https://www.udacity.com/course/deep-learning-nanodegree--nd101).
+This repository contains all the projects I did during the [Deep Learning Nanodegree at Udacity](https://www.udacity.com/course/deep-learning-nanodegree--nd101) as well as lessons from other sources.
 
-## Lessons
+# Lessons
 
 This folder contains notes and examples I took during the program.
 
 Most of the data can also be found on the original Udacity repo: https://github.com/udacity/deep-learning
+
+It also contains notes and lessons from other courses, tutorials, etc.
+
+# Udacity Nanodegree Projects:
 
 ## Project 1: Simple Neural Network
 
